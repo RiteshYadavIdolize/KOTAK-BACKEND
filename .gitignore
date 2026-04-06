@@ -1,0 +1,20 @@
+# Node modules (very large, never push)
+node_modules/
+
+# Environment variables (IMPORTANT 🔐)
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output (for Vite React)
+dist/
+
+# Optional
+.vscode/
